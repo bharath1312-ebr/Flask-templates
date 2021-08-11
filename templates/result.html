@@ -1,0 +1,10 @@
+{% extends 'index.html' %}
+{% block content%}
+
+{% if marks>50 %}
+<h2>You Have Passed..Congratulations</h2>
+{%else%}
+<h2>You Have Failed...Dont Worry
+    Please try again in supplies</h2>
+{%endif%}
+{% endblock %}
